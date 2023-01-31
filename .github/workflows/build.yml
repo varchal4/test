@@ -32,5 +32,5 @@ jobs:
       - name: Build and analyze
         env:
           GITHUB_TOKEN: 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
-          SONAR_TOKEN: 373279774155173926952a7ad1ffc0413d31da17
+          SONAR_TOKEN: 4ee226f67c6ddd93bc0dfeae660b7cc52a1dd4b9
         run: mvn -B clean verify -Pcoverage org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.coverage.exclusions=**src/test/**/*.* -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco-aggregate/jacoco.xml -Dsonar.projectKey=varchal4_test
