@@ -32,13 +32,9 @@
         <jacoco.version>0.8.6</jacoco.version>
         <surefire.version>2.22.2</surefire.version>
         <checkstyle.version>3.0.0</checkstyle.version>
-        <sonar.report>${project.basedir}/target/site/jacoco-aggregate/jacoco.xml</sonar.report>
-        <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/target/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-        <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/target/jacoco.exec</sonar.coverage.jacoco.xmlReportPaths>
-
-  <sonar.organization>varchal4</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-
+        <sonar.projectKey>varchal4_test</sonar.projectKey>
+        <sonar.organization>varchal4</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <dependencies>
