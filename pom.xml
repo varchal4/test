@@ -33,6 +33,7 @@
         <jacoco.version>0.8.5</jacoco.version>
         <surefire.version>2.22.2</surefire.version>
         <checkstyle.version>3.0.0</checkstyle.version>
+        <sonar.report>/target/site/jacoco-aggregate/jacoco.xml</sonar.report>
   </properties>
 
   <dependencies>
@@ -118,6 +119,7 @@
                 <sonar.organization>varchal4</sonar.organization>
                 <sonar.projectKey>test</sonar.projectKey>
                 <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+                <sonar.report>/target/site/jacoco-aggregate/jacoco.xml</sonar.report>
             </properties>
             <activation>
                 <activeByDefault>false</activeByDefault>
