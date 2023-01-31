@@ -33,4 +33,4 @@ jobs:
         env:
           GITHUB_TOKEN: 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
           SONAR_TOKEN: 373279774155173926952a7ad1ffc0413d31da17
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=varchal4_test
+        run: mvn -B clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=varchal4_test
