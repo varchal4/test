@@ -34,6 +34,8 @@
         <surefire.version>2.22.2</surefire.version>
         <checkstyle.version>3.0.0</checkstyle.version>
         <sonar.report>/target/site/jacoco-aggregate/jacoco.xml</sonar.report>
+        <sonar.testExecutionReportPaths>/target/site/jacoco-aggregate/jacoco.xml</sonar.testExecutionReportPaths>
+        <sonar.coverageReportPaths>/target/site/jacoco-aggregate/jacoco.xml</sonar.coverageReportPaths>
   </properties>
 
   <dependencies>
@@ -120,6 +122,8 @@
                 <sonar.projectKey>test</sonar.projectKey>
                 <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
                 <sonar.report>/target/site/jacoco-aggregate/jacoco.xml</sonar.report>
+                <sonar.testExecutionReportPaths>/target/site/jacoco-aggregate/jacoco.xml</sonar.testExecutionReportPaths>
+                <sonar.coverageReportPaths>/target/site/jacoco-aggregate/jacoco.xml</sonar.coverageReportPaths>     
             </properties>
             <activation>
                 <activeByDefault>false</activeByDefault>
