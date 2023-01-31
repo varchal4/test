@@ -115,10 +115,7 @@
 
   <profiles>
     <profile>
-      <id>coverage</id>
-      <properties>
-        <sonar.coverage.exclusions>**src/test/**/*.*</sonar.coverage.exclusions>
-      </properties>       
+      <id>coverage</id>    
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
